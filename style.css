@@ -42,10 +42,11 @@ body {
 
 /* ✅ Logo */
 .logo img {
-  max-width: 100%; /* faz a imagem se adaptar à tela */
+  max-width: 90vw;   /* 90% da largura da tela */
+  max-height: 90vh;  /* 90% da altura da tela */
+  width: auto;
   height: auto;
 }
-
 
 /* ✅ Botões */
 .buttons {
