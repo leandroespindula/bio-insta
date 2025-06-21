@@ -36,10 +36,10 @@ body {
 
 /* ✅ Logo */
 .logo img {
-  max-width: 600px; /* você pode ajustar esse valor conforme o tamanho desejado */
+  max-width: 500px; /* você pode ajustar esse valor conforme o tamanho desejado */
   height: auto;
   margin-top: -100px;
-  margin-bottom: -80px;
+  margin-bottom: -120px;
 }
 
 
