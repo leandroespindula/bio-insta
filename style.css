@@ -34,19 +34,30 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center; /* adiciona centralização vertical */
   text-align: center;
-  width: 100%;
-   max-width: 100%;
-  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+  padding: 0; /* remove espaçamento extra */
+  overflow: hidden; /* impede qualquer rolagem */
 }
 
 /* ✅ Logo */
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ✅ Logo IMG - máximo sem scroll */
 .logo img {
-  max-width: 90vw;   /* 90% da largura da tela */
-  max-height: 90vh;  /* 90% da altura da tela */
+  max-width: 100vw;
+  max-height: 100vh;
   width: auto;
   height: auto;
 }
+
 
 /* ✅ Botões */
 .buttons {
